@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import fastbook
-import gradio
-import PIL
+from fastai.vision.all import *
 import gradio as gr
 
-learner = fastbook.load_learner("./zidane_scholes_mbappe.pkl")
+learner = load_learner("./zidane_scholes_mbappe.pkl")
 
 labels = learner.dls.vocab
 labels
