@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
+
+pip install huggingface_hub["fastai"]
 
 from fastai.vision.all import *
 import gradio as gr
