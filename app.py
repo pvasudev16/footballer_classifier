@@ -4,7 +4,6 @@ import gradio as gr
 learner = load_learner("./zidane_scholes_mbappe.pkl")
 
 labels = learner.dls.vocab
-labels
 
 def predict(img):
     # img = fastbook.PILImage.create(img)
