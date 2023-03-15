@@ -14,8 +14,6 @@ gr.Interface(
     fn=predict,
     inputs=gr.inputs.Image(shape=(512, 512)),
     outputs=gr.outputs.Label(num_top_classes=3)
-).launch(
-    share=True
-)
+).launch()
 
 
