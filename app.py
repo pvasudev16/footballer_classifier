@@ -13,7 +13,17 @@ def predict(img):
 gr.Interface(
     fn=predict,
     inputs=gr.inputs.Image(shape=(512, 512)),
-    outputs=gr.outputs.Label(num_top_classes=3)
+    outputs=gr.outputs.Label(num_top_classes=3),
+    examples=[
+        "zidane_01.jpg",
+        "zidane_02.jpg",
+        "scholes_01.jpg",
+        "scholes_02.jpg",
+        "mbappe_01.jpg",
+        "mbappe_02.jpg"
+    ],
+    title="A simple app to differentiate pictures of three amazing footballers",
+    description="Classify a picture of a footballer being either Kylian Mbappe, Zinedine Zidane, or Paul Scholes"
 ).launch()
 
 
