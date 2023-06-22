@@ -3,6 +3,9 @@ A simple image recognition Gradio app to classify images as being either
 Kylian Mbappe, Zinedine Zidane, or Paul Scholes. See the
 [live version](https://huggingface.co/spaces/pvasudev/zidane_scholes_mbappe).
 
+Here is a preview:
+![Click on the live-version link above!](https://github.com/pvasudev16/footballer_classifier/blob/main/app_preview.jpg)
+
 This model is trained using fastai. I got images of each of the players
 from DuckDuckGo, augmented the data with rotations, skews, crops, and
 resizes of the images. I then fine-tuned the Resnet34 model to classify
