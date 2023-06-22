@@ -16,8 +16,7 @@ To see the training process, see
 
 I initially trained this model by fine-tuning Resnet18, but it made
 obvious mistakes: it classified Paul Scholes as Mbappe. 
-Moving to Resnet34 makes the test examples work properly. (The model
-.pkl files aren't included here.)
+Moving to Resnet34 makes the test examples work properly.
 
 I prototyped this app locally using the
 [prototype.ipynb](https://github.com/pvasudev16/footballer_classifier/blob/main/prototype.ipynb)
