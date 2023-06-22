@@ -1,7 +1,7 @@
 from fastai.vision.all import *
 import gradio as gr
 
-learner = load_learner("./zidane_scholes_mbappe.pkl")
+learner = load_learner("./zidane_scholes_mbappe_resnet34.pkl")
 
 labels = learner.dls.vocab
 
